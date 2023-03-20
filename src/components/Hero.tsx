@@ -32,7 +32,7 @@ const Hero = () => {
         {/* Subtitle */}
         <p className="text-lg drop-shadow-lg lg:text-lg">
           Venha participar do <b>primeiro campeonato municipal</b> de Voleibol
-          em Iguatu. Com premiações para os 3 primeiros colocadose e para os
+          em Iguatu. Com premiações para os 3 primeiros colocados e e para os
           melhores atletas da competição. Inscreva-se com a sua equipe e
           participe!
         </p>
@@ -60,6 +60,7 @@ const Hero = () => {
             to="sobre"
             spy={true}
             smooth={true}
+            offset={-70}
             className="bg-primary flex cursor-pointer items-center gap-2 rounded-lg px-4 py-2 text-lg font-semibold text-white shadow-lg"
           >
             <FaChevronDown />

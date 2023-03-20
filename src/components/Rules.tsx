@@ -68,7 +68,7 @@ function Rules() {
         <h1>Regulamento</h1>
       </div>
 
-      <div className="mt-4 grid grid-cols-1 gap-y-4 gap-x-10 lg:grid-cols-3">
+      <div className="mt-4 grid grid-cols-1 gap-y-8 gap-x-10 lg:grid-cols-3">
         {rules.map((rule, index) => (
           <div key={index} className="flex items-start gap-3 text-xl">
             <div className="bg-primary rounded-full p-3 text-white">
