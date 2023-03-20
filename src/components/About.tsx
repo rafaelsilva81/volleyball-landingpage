@@ -1,6 +1,8 @@
 import React from "react";
 import { FaVolleyballBall } from "react-icons/fa";
 
+import DefaultAnimationContainer from "./common/DefaultAnimation";
+
 const About = () => {
   return (
     <div id="sobre" className="mt-10 flex flex-col gap-4">

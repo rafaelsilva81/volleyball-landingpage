@@ -14,6 +14,7 @@ import {
 } from "react-icons/fa";
 
 import { motion } from "framer-motion";
+import DefaultAnimationContainer from "./common/DefaultAnimation";
 
 const rules = [
   {
@@ -74,9 +75,10 @@ function Rules() {
         {rules.map((rule, index) => (
           <motion.div
             transition={{
-              duration: 0.5,
-              delay: index * 0.1,
+              duration: 0.2,
+              delay: index * 0.05,
             }}
+            viewport={{ once: true }}
             initial="hidden"
             whileInView="visible"
             variants={{

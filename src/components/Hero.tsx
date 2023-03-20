@@ -62,13 +62,14 @@ const Hero = () => {
         </div>
 
         {/* Call to actions */}
-        <div className="mt-1 flex flex-wrap items-center gap-2">
+        <div className="mt-1 flex flex-wrap items-center gap-4">
           <Link
             to="sobre"
             spy={true}
             smooth={true}
             offset={-70}
-            className="bg-primary flex cursor-pointer items-center gap-2 rounded-lg px-4 py-2 text-lg font-semibold text-white shadow-lg"
+            className="bg-primary flex cursor-pointer items-center gap-2 rounded-lg px-4 py-2 text-lg 
+            font-semibold text-white shadow-lg hover:scale-105 transition-all"
           >
             <FaChevronDown />
             Saiba mais
@@ -78,7 +79,9 @@ const Hero = () => {
             href="https://forms.gle/8y2yAVo61fzWQHLt9"
             target="_blank"
             rel="noreferrer noopener"
-            className="bg-primary flex items-center gap-2 rounded-lg px-4 py-2 text-lg font-semibold text-white shadow-lg"
+            className="bg-primary flex items-center gap-2 rounded-lg px-4 py-2 text-lg font-semibold 
+              text-white shadow-lg hover:scale-105 transition-all
+            "
           >
             <FaExternalLinkAlt />
             Inscreva-se
