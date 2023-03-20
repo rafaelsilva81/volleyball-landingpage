@@ -33,9 +33,6 @@ function Home() {
             <h1>Patrocinadores</h1>
           </div>
 
-          <h1 className="text-xl font-bold uppercase text-white md:text-3xl">
-            Patrocinadores ouro
-          </h1>
           {/* Gold sponsors (bigger image) */}
           <div className="flex flex-wrap items-center gap-4">
             <div className="bg-primary rounded-lg p-2">
