@@ -46,13 +46,13 @@ const premiacoes = [
 
 const Prizes = () => {
   return (
-    <>
+    <div className="flex flex-col gap-8">
       <div className="flex items-center gap-2 text-2xl font-bold text-white lg:text-5xl">
         <GiPodium size={32} />
         <h1>Premiações</h1>
       </div>
 
-      <div className="flex flex-wrap items-center justify-center gap-4">
+      <div className="flex flex-wrap items-center gap-4">
         {/* 1° and 2° place */}
         <motion.div
           transition={{
@@ -148,7 +148,7 @@ const Prizes = () => {
           </motion.div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

@@ -69,7 +69,7 @@ const Hero = () => {
             smooth={true}
             offset={-70}
             className="bg-primary flex cursor-pointer items-center gap-2 rounded-lg px-4 py-2 text-lg 
-            font-semibold text-white shadow-lg hover:scale-105 transition-all"
+            font-semibold text-white shadow-lg transition-all hover:scale-105"
           >
             <FaChevronDown />
             Saiba mais
@@ -80,7 +80,7 @@ const Hero = () => {
             target="_blank"
             rel="noreferrer noopener"
             className="bg-primary flex items-center gap-2 rounded-lg px-4 py-2 text-lg font-semibold 
-              text-white shadow-lg hover:scale-105 transition-all
+              text-white shadow-lg transition-all hover:scale-105
             "
           >
             <FaExternalLinkAlt />
@@ -111,7 +111,7 @@ const Hero = () => {
         }}
         className="flex items-center justify-center lg:w-1/2"
       >
-        <img src={logo} alt="Logo" className="w-1/2 lg:w-3/4" />
+        <img src={logo} alt="Logo" className="mt-8 w-1/2 md:mt-0 lg:w-3/4" />
       </motion.div>
     </div>
   );

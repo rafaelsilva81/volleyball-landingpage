@@ -66,7 +66,7 @@ const rules = [
 function Rules() {
   return (
     <div id="regulamento" className="flex flex-col gap-2">
-      <div className="flex items-center gap-2 text-2xl font-bold text-white lg:text-5xl">
+      <div className="flex items-center gap-2 text-3xl font-bold text-white lg:text-5xl">
         <GiWhistle size={32} />
         <h1>Regulamento</h1>
       </div>
