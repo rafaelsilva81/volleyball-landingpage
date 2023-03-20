@@ -71,7 +71,7 @@ function Home() {
         <div className="flex flex-wrap items-center justify-center gap-4">
           {/* 1° and 2° place */}
           <div className="bg-primary flex h-64 w-64 flex-col items-center justify-center gap-2 rounded-lg p-8">
-            <div className="bg-secondary flex h-24 w-24 items-center justify-center rounded-full">
+            <div className="text-secondary flex h-24 w-24 items-center justify-center rounded-full bg-white">
               <FaTrophy size={42} />
             </div>
             <h2 className="text-3xl font-bold">1° e 2° Lugar</h2>
@@ -80,7 +80,7 @@ function Home() {
 
           {/* 3° place */}
           <div className="bg-primary flex h-64 w-64 flex-col items-center justify-center gap-2 rounded-lg p-8">
-            <div className="bg-secondary flex h-24 w-24 items-center justify-center rounded-full">
+            <div className="text-secondary flex h-24 w-24 items-center justify-center rounded-full bg-white">
               <FaMedal size={42} />
             </div>
             <h2 className="text-3xl font-bold">3° Lugar</h2>
@@ -89,7 +89,7 @@ function Home() {
 
           {/* MVP */}
           <div className="bg-primary flex h-64 w-64 flex-col items-center justify-center gap-2 rounded-lg p-8">
-            <div className="bg-secondary flex h-24 w-24 items-center justify-center rounded-full">
+            <div className="text-secondary flex h-24 w-24 items-center justify-center rounded-full bg-white">
               <FaVolleyballBall size={42} />
             </div>
             <h2 className="text-3xl font-bold">MVP</h2>
@@ -101,7 +101,7 @@ function Home() {
               key={i}
               className="bg-primary flex h-64 w-64 flex-col items-center justify-center gap-2 rounded-lg p-8"
             >
-              <div className="bg-secondary flex h-24 w-24 items-center justify-center rounded-full">
+              <div className="text-secondary flex h-24 w-24 items-center justify-center rounded-full bg-white">
                 <img
                   src={premiacao.icon}
                   alt={premiacao.title}
