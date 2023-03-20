@@ -11,17 +11,25 @@ import {
   FaMapMarker,
 } from "react-icons/fa";
 
+import { motion } from "framer-motion";
+
 const Hero = () => {
   return (
-    <div className="border-b-secondary flex h-screen w-full flex-col-reverse border-b-8 bg-gray-800 lg:flex-row lg:justify-between">
+    <div className="border-b-secondary flex min-h-screen flex-col-reverse border-b-8 bg-gray-800 lg:flex-row lg:justify-between">
       {/* Information */}
-      <div className="flex flex-col gap-5 p-8 px-12 lg:w-1/2 lg:justify-center">
+      <motion.div
+        animate={{
+          opacity: [0, 1],
+          y: [-50, 0],
+        }}
+        className="flex flex-col gap-5 p-8 px-12 lg:w-1/2 lg:justify-center"
+      >
         {/* Main Title */}
         <div className="flex flex-col flex-wrap">
           <h1 className="text-2xl font-bold drop-shadow-lg lg:text-5xl">
             Copa Iguatuense
           </h1>
-          <div className="flex flex-col items-baseline gap-2 lg:flex-row">
+          <div className="flex flex-col flex-wrap items-baseline gap-2 lg:flex-row">
             <h1 className="text-primary text-5xl font-bold drop-shadow-lg lg:text-8xl">
               De Voleibol
             </h1>
@@ -32,8 +40,7 @@ const Hero = () => {
         {/* Subtitle */}
         <p className="text-lg drop-shadow-lg lg:text-lg">
           Venha participar do <b>primeiro campeonato municipal</b> de Voleibol
-          em Iguatu. Com premiações para os 3 primeiros colocados e e para os
-          melhores atletas da competição. Inscreva-se com a sua equipe e
+          em Iguatu. Com premiações para os 3 primeiros colocados e e para os z
           participe!
         </p>
 
@@ -89,12 +96,20 @@ const Hero = () => {
             <img src={org2} alt="Logo" className="w-32 lg:w-40" />
           </div>
         </div>
-      </div>
+      </motion.div>
 
       {/* Image */}
-      <div className="flex items-center justify-center lg:w-1/2">
+      <motion.div
+        animate={{
+          opacity: [0, 1],
+        }}
+        transition={{
+          delay: 0.5,
+        }}
+        className="flex items-center justify-center lg:w-1/2"
+      >
         <img src={logo} alt="Logo" className="w-1/2 lg:w-3/4" />
-      </div>
+      </motion.div>
     </div>
   );
 };

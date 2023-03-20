@@ -13,6 +13,8 @@ import {
   FaTshirt,
 } from "react-icons/fa";
 
+import { motion } from "framer-motion";
+
 const rules = [
   {
     icon: <FaMapMarkerAlt size={20} />,
@@ -70,12 +72,25 @@ function Rules() {
 
       <div className="mt-4 grid grid-cols-1 gap-y-8 gap-x-10 lg:grid-cols-3">
         {rules.map((rule, index) => (
-          <div key={index} className="flex items-start gap-3 text-xl">
+          <motion.div
+            transition={{
+              duration: 0.5,
+              delay: index * 0.1,
+            }}
+            initial="hidden"
+            whileInView="visible"
+            variants={{
+              visible: { opacity: 1, x: 0 },
+              hidden: { opacity: 0, x: 20 },
+            }}
+            key={index}
+            className="flex items-start gap-3 text-xl"
+          >
             <div className="bg-primary rounded-full p-3 text-white">
               {rule.icon}
             </div>
             <p className="text-white">{rule.text}</p>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>
