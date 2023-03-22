@@ -49,7 +49,7 @@ const Hero = () => {
           {/* Days */}
           <div className="flex w-fit items-center gap-2 text-sm font-semibold lg:text-lg">
             <FaCalendar className="text-primary" />
-            <p className="">Dias 29 e 30 de Abril</p>
+            <p className="">Dias 22 e 23 de Abril</p>
           </div>
 
           {/* Location */}
