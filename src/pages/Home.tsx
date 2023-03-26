@@ -11,6 +11,7 @@ import g1 from "../assets/patrocinadores/g1.png";
 import g2 from "../assets/patrocinadores/g2.png";
 import g3 from "../assets/patrocinadores/g3.png";
 import Sponsors from "../components/Sponsors";
+import Teams from "../components/Teams";
 
 function Home() {
   return (
@@ -30,6 +31,8 @@ function Home() {
         <Prizes />
         {/* Sponsors */}
         <Sponsors />
+        {/* Teams */}
+        <Teams />
       </main>
 
       {/* Subscription */}

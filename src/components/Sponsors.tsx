@@ -5,8 +5,9 @@ import { FaThumbsUp } from "react-icons/fa";
 import g1 from "../assets/patrocinadores/g1.png";
 import g2 from "../assets/patrocinadores/g2.png";
 import g3 from "../assets/patrocinadores/g3.png";
+import g4 from "../assets/patrocinadores/g4.png";
 
-const sponsorImages = [g1, g2, g3];
+const sponsorImages = [g1, g2, g3, g4];
 
 const Sponsors = () => {
   return (
