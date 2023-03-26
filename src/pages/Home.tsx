@@ -4,12 +4,7 @@ import Rules from "../components/Rules";
 import Subscription from "../components/Subscription";
 import Footer from "../components/Footer";
 import Prizes from "../components/Prizes";
-import { FaThumbsUp } from "react-icons/fa";
 
-/* sponsor images */
-import g1 from "../assets/patrocinadores/g1.png";
-import g2 from "../assets/patrocinadores/g2.png";
-import g3 from "../assets/patrocinadores/g3.png";
 import Sponsors from "../components/Sponsors";
 import Teams from "../components/Teams";
 
