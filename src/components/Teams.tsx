@@ -9,8 +9,9 @@ import t4 from "../assets/times/t4.png";
 import t5 from "../assets/times/t5.png";
 import t6 from "../assets/times/t6.png";
 import t7 from "../assets/times/t7.png";
+import t8 from "../assets/times/t8.png";
 
-const teamImages = [t1, t2, t3, t4, t5, t6, t7];
+const teamImages = [t1, t2, t3, t4, t5, t6, t7, t8];
 
 const Teams = () => {
   return (
