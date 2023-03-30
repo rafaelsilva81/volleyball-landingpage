@@ -13,7 +13,7 @@ const About = () => {
       <p className="text-white lg:text-xl">
         A Copa Iguatuense de Voleibol é um evento que visa promover a prática de
         esportes dentro do município através da prática do vôlei. A competição
-        ocorrerá nos dias 29 e 30 de abril de 2023 na Av. Dário Rabêlo, 977 -
+        ocorrerá nos dias 22 e 23 de Abril de 2023 na Av. Dário Rabêlo, 977 -
         Sete de Setembro, Iguatu (URCA). <br />
         <b>
           Apenas atletas do município de Iguatu poderão participar da

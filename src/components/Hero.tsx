@@ -74,18 +74,6 @@ const Hero = () => {
             <FaChevronDown />
             Saiba mais
           </Link>
-
-          <a
-            href="https://forms.gle/8y2yAVo61fzWQHLt9"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="bg-primary flex items-center gap-2 rounded-lg px-4 py-2 text-lg font-semibold 
-              text-white shadow-lg transition-all hover:scale-105
-            "
-          >
-            <FaExternalLinkAlt />
-            Inscreva-se
-          </a>
         </div>
 
         {/* Helpers */}

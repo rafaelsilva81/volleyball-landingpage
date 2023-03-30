@@ -7,7 +7,10 @@ import g2 from "../assets/patrocinadores/g2.png";
 import g3 from "../assets/patrocinadores/g3.png";
 import g4 from "../assets/patrocinadores/g4.png";
 
-const sponsorImages = [g1, g2, g3, g4];
+import s1 from "../assets/patrocinadores/s1.png";
+
+const goldSponsorImages = [g1, g2, g3, g4];
+const silverSponsorImages = [s1];
 
 const Sponsors = () => {
   return (
@@ -19,12 +22,25 @@ const Sponsors = () => {
 
       {/* Gold sponsors (bigger image) */}
       <div className="flex flex-wrap items-center gap-4">
-        {sponsorImages.map((image, index) => (
+        {goldSponsorImages.map((image, index) => (
           <div key={index} className="bg-primary rounded-lg p-2">
             <img
               src={image}
               alt="Patrocinador"
               className="h-48 w-48 object-scale-down"
+            />
+          </div>
+        ))}
+      </div>
+
+      {/* Silver sponsors (smaller image) */}
+      <div className="flex flex-wrap items-center gap-4">
+        {silverSponsorImages.map((image, index) => (
+          <div key={index} className="bg-primary rounded-lg p-2">
+            <img
+              src={image}
+              alt="Patrocinador"
+              className="h-32 w-32 object-scale-down"
             />
           </div>
         ))}
