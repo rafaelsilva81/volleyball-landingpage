@@ -43,7 +43,7 @@ const Sponsors = () => {
             <img
               src={image}
               alt="Patrocinador"
-              className="h-32 w-32 object-scale-down"
+              className="h-36 w-36 object-scale-down"
             />
           </div>
         ))}
