@@ -6,11 +6,14 @@ import g1 from "../assets/patrocinadores/g1.png";
 import g2 from "../assets/patrocinadores/g2.png";
 import g3 from "../assets/patrocinadores/g3.png";
 import g4 from "../assets/patrocinadores/g4.png";
+import g5 from "../assets/patrocinadores/g5.png";
+import g6 from "../assets/patrocinadores/g6.png";
 
 import s1 from "../assets/patrocinadores/s1.png";
+import s2 from "../assets/patrocinadores/s2.png";
 
-const goldSponsorImages = [g1, g2, g3, g4];
-const silverSponsorImages = [s1];
+const goldSponsorImages = [g1, g2, g3, g4, g5, g6];
+const silverSponsorImages = [s1, s2];
 
 const Sponsors = () => {
   return (
